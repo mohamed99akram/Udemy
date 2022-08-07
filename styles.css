@@ -59,3 +59,20 @@
 .searchicon{
     width: 50%;
 }
+.navbar{
+    transform: translateY(-1000%);
+    position: absolute;
+    padding: 10px 30px;
+    border: 1px solid rgba(169, 169, 169, 50%);
+}
+.navbarul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.navbarul > a{
+    text-decoration: none;
+}
+.nav-container:hover .navbar {
+    transform: translateY(0); /* when parent is hovered */
+}
+  
