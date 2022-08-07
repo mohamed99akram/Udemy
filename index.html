@@ -11,39 +11,50 @@
 
 <body>
     <section class="topbar">
-        <a href="#">
-            <img src="assets/udemy.png" alt="Udemy image" width="100px">
-        </a>
-        <nav class="nav-container">
-            <a target="_blank" href="#" class="topbarlink categories">
-                Cateogories
+        <div class="udemy">
+            <a href="#">
+                <img src="assets/udemy.png" alt="Udemy image" width="100px">
             </a>
-            <!-- <div class="nav-container"> -->
-            <div class="navbar">
-                <ul class="navbarul">
-                    <li><a href="#" class="topbarlink">Web Development</a></li>
-                    <li><a href="#" class="topbarlink">Game Development</a></li>
-                    <li><a href="#" class="topbarlink">Machine Learning</a></li>
-                    <li><a href="#" class="topbarlink">Graphic Design</a></li>
-                    <li><a href="#" class="topbarlink">Cooking</a></li>
-                </ul>
-            </div>
-            <!-- </div> -->
-        </nav>
-        <form action="search" class="searchform">
-            <input type="text" class="searchbar" placeholder="Search for anything">
-            <button type="submit" class="submitbutton">
-                <img src="assets/search.png" alt="search icon" class="searchicon">
-            </button>
-        </form>
-        <a href="#" class="topbarlink helpingLink">Teach on Udemy</a>
-        <a href="#" class="topbarlink helpingLink">My Learning</a>
-        <div class="topIcon">
+        </div>
+        <div class="nav-container">
+            <nav>
+                <a href="#" class="topbarlink categories">
+                    Cateogories
+                </a>
+                <button class="categories-tiles">
+                    <img src="assets/drawer.png" alt="nav bar drawer"width="20px">
+                </button>
+                <!-- <div class="nav-container"> -->
+                <div class="navbar">
+                    <ul class="navbarul">
+                        <li class="navlink"><a href="#" class="topbarlink">Web Development</a></li>
+                        <li class="navlink"><a href="#" class="topbarlink">Game Development</a></li>
+                        <li class="navlink"><a href="#" class="topbarlink">Machine Learning</a></li>
+                        <li class="navlink"><a href="#" class="topbarlink">Graphic Design</a></li>
+                        <li class="navlink"><a href="#" class="topbarlink">Cooking</a></li>
+                    </ul>
+                </div>
+                <!-- </div> -->
+            </nav>
+        </div>
+        <!-- <div> -->
+            <form action="search"  class="searchform">
+                <input type="text" class="searchbar" placeholder="Search for anything">
+                <button type="submit" class="submitbutton">
+                    <img src="assets/search.png" alt="search icon" class="searchicon">
+                </button>
+            </form>
+        <!-- </div> -->
+        <div class="teach">
+            <a href="#" class="topbarlink helpingLink">Teach on Udemy</a>
+        </div>
+        <div class="learning"><a href="#" class="topbarlink helpingLink">My Learning</a></div>
 
-            <a href="#" class="topbarlink iconRight"><img src="assets/heart.png" alt="favorites"></a>
-            <a href="#" class="topbarlink iconRight"><img src="assets/cart.png" alt="cart"></a>
-            <a href="#" class="topbarlink iconRight"><img src="assets/bell.png" alt="notifications"></a>
-            <a href="#" class="topbarlink iconRight"><img src="assets/account.png" alt="account settings"></a>
+        <div class="topIcon">
+            <a href="#" class="topbarlink iconRight heart"><img src="assets/heart.png" alt="favorites"></a>
+            <a href="#" class="topbarlink iconRight cart"><img src="assets/cart.png" alt="cart"></a>
+            <a href="#" class="topbarlink iconRight bell"><img src="assets/bell.png" alt="notifications"></a>
+            <a href="#" class="topbarlink iconRight account"><img src="assets/account.png" alt="account settings"></a>
         </div>
     </section>
     <section class="header">
@@ -53,7 +64,7 @@
                 <p>Thrive with the latest skills from E£149.99. Sale ends tonight</p>
             </div>
             <div class="header-item">
-                <img src="assets/bell_banner_small.png" alt="Man sitting and working on laptop" width="400px">
+                <img src="assets/bell_banner_small.png" alt="banner image" width="400px">
             </div>
         </div>
     </section>
@@ -64,6 +75,7 @@
                     <img src="assets/PMF.png" alt="courseImg" width="100%">
                     <div class="course-text">
                         <h3>Product Marketing Fundamentals</h3><span class="instructorName">Richard king</span>
+                        <h3>E£149.99</h3>
                     </div>
                 </a>
             </div>
@@ -74,6 +86,7 @@
                         <h3>Product Launch Marketing Plan: Go to market marketing plan</h3><span
                             class="instructorName">Decker Fraser, MBA, Jyra
                             Galosomo</span>
+                        <h3>E£1099.99</h3>
                     </div>
                 </a>
             </div>
@@ -83,6 +96,7 @@
                     <div class="course-text">
                         <h3>Smart Tips: Soft Skills for Technical professionals</h3><span class="instructorName">Michael
                             Riegel</span>
+                        <h3>E£599.99</h3>
                     </div>
                 </a>
             </div>
@@ -92,6 +106,7 @@
                     <div class="course-text">
                         <h3>iOS & Swift The Complete iOS App Development Bootcamp</h3><span class="instructorName">Dr.
                             Angela Yu</span>
+                        <h3>E£1,699.99</h3>
                     </div>
                 </a>
             </div>
@@ -101,6 +116,7 @@
                     <div class="course-text">
                         <h3>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</h3><span
                             class="instructorName">Stephane Maarek </span>
+                        <h3>E£697.99</h3>
                     </div>
                 </a>
             </div>
