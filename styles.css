@@ -1,8 +1,13 @@
+body{
+    background-color: aliceblue;
+}
+/* ******* TOP BAR  ***** */
 .topbar{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: start;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
     height: 100%;
 }
 .topbarlink{
@@ -75,4 +80,23 @@
 .nav-container:hover .navbar {
     transform: translateY(0); /* when parent is hovered */
 }
-  
+
+/* *******    box  **********  */
+.header-container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 40px;
+}
+.header-text{
+    align-self: center;
+    justify-self: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    margin: 20px;
+    padding: 40px;
+}
+.header-text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
