@@ -1,6 +1,6 @@
-body{
+/* body{
     background-color: aliceblue;
-}
+} */
 /* ******* TOP BAR  ***** */
 .topbar{
     display: flex;
@@ -114,10 +114,32 @@ body{
 }
 
 .course{
-    max-width: 200px;
+    max-height: max-content;
+    height: 400px;
+    max-width: 300px;
     margin: 10px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
 }
 .course-text{
     padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.course img{
+    /* height: 200px; */
+}
+.instructorName{
+    font-size: small;
+    color: #6a6f73;
+}
+.course a{
+    text-decoration: none;
+}
+.course a:visited .instructorName{
+    color: #6a6f73;
+}
+.course a:visited{
+    color: black;
+}
+/* .header{
+    background-image: url("assets/bell_banner.jpg");
+} */
