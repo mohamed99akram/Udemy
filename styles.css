@@ -1,0 +1,61 @@
+.topbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+}
+.topbarlink{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+.helpingLink{
+    margin: 0 20px;
+}
+.topIcon{
+    margin-left: auto;
+}
+.iconRight{
+    padding: 0 10px;
+}
+.topbarlink:visited{
+    color: black;
+}
+.topbarlink:hover{
+    color: magenta;
+    border-radius: 5px;
+}
+
+.searchbar{
+    border: none;
+    height: 30px;
+    width: 500px;
+    max-width: 500px;
+    font: 200;
+    /* padding-left: 40px; */
+}
+
+.searchbar:focus{
+    border: none;
+    outline-width: 0;
+}
+.searchform{
+    border: 1px solid black;
+    border-radius:20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 20px;
+    /* min-height: 50px; */
+    flex-direction: row-reverse;
+}
+.submitbutton{
+    background-color: rgba(1, 1, 1, 0);
+    border: 0px;
+}
+.searchicon{
+    width: 50%;
+}
