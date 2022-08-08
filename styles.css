@@ -154,6 +154,13 @@
 .course a:visited{
     color: black;
 }
+.checked , .fa-star-half-o{
+    color: orange;
+  }
+.rating{
+    color: orange;
+    font-size: large;
+}
 /* .header{
     background-image: url("assets/bell_banner.jpg");
 } */
@@ -169,6 +176,13 @@
         display: none;
     }
 }
+
+@media screen and (max-width:950px){
+    .teach{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .courses-container {
       flex-direction: column;
