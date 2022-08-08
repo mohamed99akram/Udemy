@@ -42,8 +42,9 @@
     border: none;
     height: 30px;
     /* width: 500px; */
+    width: 70%;
     max-width: 500px;
-    font: 200;
+    /* font: 200; */
     /* padding-left: 40px; */
 }
 
