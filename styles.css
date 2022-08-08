@@ -27,6 +27,11 @@ body{
 }
 .topIcon{
     margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
 }
 .iconRight{
     padding: 0 10px;
@@ -71,6 +76,9 @@ body{
 .searchicon{
     width: 50%;
 }
+.smallsearchicon{
+    background-color: white;
+}
 .navbar{
     background-color: white;
     transform: translateY(-1000%);
@@ -92,7 +100,6 @@ body{
 .nav-container:hover .navbar {
     transform: translateY(0); /* when parent is hovered */
 }
-
 
 /* *******    box  **********  */
 .header-container{
@@ -159,9 +166,13 @@ a{
 .course a:visited{
     color: black;
 }
+/* .fa{
+    color: white;
+} */
 .checked , .fa-star-half-o{
     color: orange;
   }
+
 .rating{
     color: orange;
     font-size: large;
@@ -176,10 +187,24 @@ a{
     background-color: white;
     border: none;
 }
+.pop-searchform{
+    background-color: white;
+    transform: translateY(-1000%);
+    /* display: none; */
+    position: absolute;
+    padding: 10px 30px;
+    border: 1px solid rgba(169, 169, 169, 50%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
 @media screen and (min-width: 800px){
     .categories-tiles{
         display: none;
     }
+    .smallsearch{
+        display: none;
+    }
+    
+   
 }
 
 @media screen and (max-width:950px){
@@ -201,8 +226,18 @@ a{
         margin: auto;
 
     }
-    .topIcon{
+    .smallsearch{
         order: 2;
+    }
+    .smallsearch:focus .pop-searchform{
+        transform: translateY(0);
+        /* display: block; */
+    }
+    .cart{
+        order: 3;
+    }
+    .topIcon{
+        order: 3;
     }
     .categories-tile 
     {
@@ -216,5 +251,5 @@ a{
     .navbar{
         height: 100%;
     }
-
+    
 } 
