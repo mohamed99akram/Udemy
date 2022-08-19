@@ -1,7 +1,7 @@
 function createCourse(course) {
     let html = 
         `
-            <div class="course">
+            <div class="course carousel-item">
                 <a href="#">
                     <img src="${course?.image??"assets/PLMP"}" alt="courseImg" width="100%">
                     <div class="course-text">
@@ -27,6 +27,9 @@ function updateCourses(courses){
     let coursesContainer = document.querySelector(".courses-container");
     coursesContainer.innerHTML = "";
     courses.forEach((course) => coursesContainer.innerHTML += createCourse(course));
+    coursesContainer.querySelectorAll('.course')[0]?.classList.add("active");
+    coursesContainer.querySelectorAll('.course')[1]?.classList.add("active");
+    // coursesContainer.querySelectorAll('.course')[2]?.classList.add("active");
 }
 fetch(
   "https://raw.githubusercontent.com/mohamed99akram/Udemy/phase2/courses.json"
