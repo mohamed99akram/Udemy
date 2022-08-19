@@ -27,9 +27,8 @@ function updateCourses(courses){
     let coursesContainer = document.querySelector(".courses-container");
     coursesContainer.innerHTML = "";
     courses.forEach((course) => coursesContainer.innerHTML += createCourse(course));
-    coursesContainer.querySelectorAll('.course')[0]?.classList.add("active");
-    coursesContainer.querySelectorAll('.course')[1]?.classList.add("active");
-    // coursesContainer.querySelectorAll('.course')[2]?.classList.add("active");
+    for(let i = 0; i < 3; i++)
+    coursesContainer.querySelectorAll('.course')[i  ]?.classList.add("active");
 }
 fetch(
   "https://raw.githubusercontent.com/mohamed99akram/Udemy/phase2/courses.json"
@@ -79,3 +78,21 @@ submitButton.addEventListener("click", (e) => {
     });
     updateCourses(filteredCourses);
 });
+// TODO make it with animation
+document.querySelector(".carousel-control-prev").addEventListener('click', ()=>{
+    let active = document.querySelectorAll('.carousel-item.active');
+    let prev = active[0].previousElementSibling;
+    if(prev){
+        active[active.length-1].classList.remove('active');
+        prev.classList.add('active');
+    }
+
+  });
+  document.querySelector(".carousel-control-next").addEventListener('click',()=>{
+    let active = document.querySelectorAll('.carousel-item.active');
+    let next = active[active.length - 1].nextElementSibling;
+    if(next){
+        active[0].classList.remove('active');
+        next.classList.add('active');
+    }
+  });

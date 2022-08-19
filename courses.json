@@ -284,6 +284,27 @@
         "reviews":11864 ,
         "rating": 4.7 ,
         "instructor": "Brent Eviston"
+    },
+    {
+        "id": 29,
+        "category":"Python",
+        "title":"Python From Scratch & Selenium WebDriver QA Automation 2022",
+        "image":"https://img-c.udemycdn.com/course/480x270/482754_7146_6.jpg",
+        "price":"E£1,299.99",
+        "reviews":1825,
+        "rating": 4.6,
+        "instructor": "Admas Kinfu"
+    },
+    {
+        "id": 30,
+        "category":"Python",
+        "title":"Teach Your Kids to Code: Learn to Program Python at Any Age!",
+        "image":"https://img-c.udemycdn.com/course/240x135/519554_da68_6.jpg",
+        "price":"E£319.99",
+        "reviews":8816 ,
+        "rating": 4.5,
+        "instructor": "Admas Kinfu",
+        "bestseller":true
     }
   ],
   "marketing":{
