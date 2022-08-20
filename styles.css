@@ -136,6 +136,10 @@ p{
     margin-left: 50px;
     overflow: auto;
 }
+.courses-tabs:focus{
+    outline: none;
+    color: black;
+}
 .tablinks{
     background-color: inherit;
     border: none;
@@ -175,6 +179,13 @@ p{
     margin: 10px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
 }
+/* .course-card{
+    max-height: max-content;
+    height: 400px;
+    max-width: 275px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+} */
 .course-text{
     padding: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -211,12 +222,7 @@ a{
     background-image: url("assets/bell_banner.jpg");
 } */
 /***  TOP CATEGORIES *****/
-#top-categories h2{
-    margin: 40px;
-}
-#top-categories{
-    margin: 30px;
-}
+
 #top-categories a{
     text-decoration: none;
 }
