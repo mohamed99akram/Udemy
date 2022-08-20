@@ -210,7 +210,36 @@ a{
 /* .header{
     background-image: url("assets/bell_banner.jpg");
 } */
-
+/***  TOP CATEGORIES *****/
+#top-categories h2{
+    margin: 40px;
+}
+#top-categories{
+    margin: 30px;
+}
+#top-categories a{
+    text-decoration: none;
+}
+#top-categories a:visited{
+    color: black;
+}
+#top-categories a:hover{
+    color: black;
+    text-decoration: none;
+}
+.top-category{
+    margin: 20px;
+    border:none;
+    background-color: inherit;
+    transition: transform .2s;
+}
+.top-category img{
+    /* width:250px; */
+    width: auto;
+}
+.top-category:hover {
+    transform: scale(1.1); 
+}
 /* media queires  */
 .categories-tiles{
     /* transform: translateY(-1000);  */

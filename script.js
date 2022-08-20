@@ -31,7 +31,7 @@ function updateCourses(courses){
     coursesContainer.querySelectorAll('.course')[i  ]?.classList.add("active");
 }
 fetch(
-  "https://raw.githubusercontent.com/mohamed99akram/Udemy/phase2/courses.json"
+  "https://raw.githubusercontent.com/mohamed99akram/Udemy/Phase3/courses.json"
 )
   .then((response) => response.json())
   .then((json) => {
