@@ -1,0 +1,319 @@
+{
+  "courses": [
+    {
+        "id": 1,
+        "category":"Python",
+        "title":"Learn Python: The Complete Python Programming Course",
+        "image":"https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+        "price":"E£679.99",
+        "reviews":2982,
+        "rating": 4.4,
+        "instructor": "Avinash Jain, The Codex"
+    },
+    {
+        "id": 2,
+        "category":"Python",
+        "title":"Learn Python for Data Analysis and Visualization",
+        "image":"https://img-c.udemycdn.com/course/240x135/396876_cc92_7.jpg",
+        "price":"E£1599.99",
+        "reviews":18017,
+        "rating": 4.4,
+        "instructor": "Jose Portilla",
+        "bestseller": true
+    },
+    {
+        "id": 3,
+        "category":"Python",
+        "title":"Python for Beginners - Learn Programming from scrach",
+        "image":"https://img-c.udemycdn.com/course/240x135/405878_e5a0_3.jpg",
+        "price":"E£679.99",
+        "reviews":1798,
+        "rating": 4.4,
+        "instructor": "Edwin Diaz, Coding Faculty Solutions"
+    },
+    {
+        "id": 4,
+        "category":"Python",
+        "title":"Learn Python: Python for Beginners",
+        "image":"https://img-c.udemycdn.com/course/240x135/426570_1b91_3.jpg",
+        "price":"E£319.99",
+        "reviews":2774,
+        "rating": 4.3,
+        "instructor": "Abrar Hussain"
+    },
+    {
+        "id": 5,
+        "category":"Excel",
+        "title":"Microsoft Excel 2013 Course Beginners/ Intermediate Training",
+        "image":"https://img-c.udemycdn.com/course/240x135/31535_e351_7.jpg",
+        "price":"E£519.99",
+        "reviews":1623,
+        "rating": 4.5,
+        "instructor": "Infinite Skills"
+    },
+    {
+        "id": 6,
+        "category":"Excel",
+        "title":"Microsoft Excel 2013  Advanced. Online Excel Training Course",
+        "image":"https://img-c.udemycdn.com/course/240x135/39292_b3f3_9.jpg",
+        "price":"E£519.99",
+        "reviews":3504 ,
+        "rating": 4.5,
+        "instructor": "Infinite Skills"
+    },
+    {
+        "id": 7,
+        "category":"Excel",
+        "title":"Microsoft Excel - From Beginner to Expert in 6 Hours",
+        "image":"https://img-c.udemycdn.com/course/240x135/49250_a658_8.jpg",
+        "price":"E£269.99",
+        "reviews":24595 ,
+        "rating": 4.4,
+        "instructor": "Todd McLeod"
+    },
+    {
+        "id": 8,
+        "category":"Excel",
+        "title":"Learn Microsoft Excel 2013 - Advanced",
+        "image":"https://img-c.udemycdn.com/course/240x135/56660_5635_3.jpg",
+        "price":"E£679.99",
+        "reviews":372 ,
+        "rating": 4.6,
+        "instructor": "Simon Sez IT"
+    },
+    {
+        "id": 9,
+        "category":"Web Development",
+        "title":"Become a Certified HTML, CSS, JavaScript Web Developer",
+        "image":"https://img-c.udemycdn.com/course/240x135/11475_9dac_14.jpg",
+        "price":"E£679.99",
+        "reviews":2739,
+        "rating": 4.5 ,
+        "instructor": "Tech Learning Network, Mark Lassoff"
+    },
+    {
+        "id": 10,
+        "category":"Web Development",
+        "title":"The Complete 2020 Fullstack Web Developer Course",
+        "image":"https://img-c.udemycdn.com/course/240x135/19332_6b49_15.jpg",
+        "price":"E£1,299.99",
+        "reviews":6160 ,
+        "rating": 4.5 ,
+        "instructor": "Kalob Taulien"
+    },
+    {
+        "id": 11,
+        "category":"Web Development",
+        "title":"Running a Web Development Business: The Complete Guide",
+        "image":"https://img-c.udemycdn.com/course/240x135/369662_7246_2.jpg",
+        "price":"E£829.99",
+        "reviews":1575 ,
+        "rating": 4.8,
+        "instructor": "Evan Kimbrell",
+        "bestseller": true
+    },
+    {
+        "id": 12,
+        "category":"Web Development",
+        "title":"Ultimate Web Designer & Web Developer Course",
+        "image":"https://img-c.udemycdn.com/course/240x135/446134_383c_3.jpg",
+        "price":"E£1,699.99",
+        "reviews":13383 ,
+        "rating": 4.6,
+        "instructor": "Brad Hussey"
+    },
+    {
+        "id": 13,
+        "category":"Javascript",
+        "title":"Javascript for Beginners",
+        "image":"https://img-c.udemycdn.com/course/240x135/8324_fa84_13.jpg",
+        "price":"E£229.99",
+        "reviews":788 ,
+        "rating": 4.5 ,
+        "instructor": "Tech Learning Network"
+    },
+    {
+        "id": 14,
+        "category":"Javascript",
+        "title":"1 Hour JavaScript",
+        "image":"https://img-c.udemycdn.com/course/240x135/63612_8797_4.jpg",
+        "price":"E£1,399.99",
+        "reviews":1898 ,
+        "rating": 4.4,
+        "instructor": "John Bura"
+    },
+    {
+        "id": 15,
+        "category":"Javascript",
+        "title":"JavaScript: Understanding the Weird Parts",
+        "image":"https://img-c.udemycdn.com/course/240x135/364426_2991_6.jpg",
+        "price":"E£1,299.99",
+        "reviews":45205 ,
+        "rating": 4.7 ,
+        "instructor": "Avinash Jain, The Codex"
+    },
+    {
+        "id": 16,
+        "category":"Javascript",
+        "title":"Javascript for Beginners Learn by Doing Practical Exercises",
+        "image":"https://img-c.udemycdn.com/course/240x135/405818_aa3f_3.jpg",
+        "price":"E£679.99",
+        "reviews":14143 ,
+        "rating": 4.3 ,
+        "instructor": "Edwin Diaz, Coding Faculty Solutions"
+    },
+    {
+        "id": 17,
+        "category":"Data Science",
+        "title":"Data Science A-Z™: Real-Life Data Science Exercises Included",
+        "image":"https://img-c.udemycdn.com/course/240x135/513244_b831_4.jpg",
+        "price":"E£1,299.99",
+        "reviews":32044 ,
+        "rating": 4.6 ,
+        "instructor": "Kirill Eremenko, Ligency I Team, Ligency Team"
+    },
+    {
+        "id": 18,
+        "category":"Data Science",
+        "title":"Machine Learning, Data Science and Deep Learning with Python",
+        "image":"https://img-c.udemycdn.com/course/240x135/671576_a272_4.jpg",
+        "price":"E£269.99",
+        "reviews":27633 ,
+        "rating": 4.5 ,
+        "instructor": "Sundog Education by Frank Kane, Frank Kane, Sundog Education Team"
+    },
+    {
+        "id": 19,
+        "category":"Data Science",
+        "title":"Data Science: Deep Learning and Neural Networks in Python",
+        "image":"https://img-c.udemycdn.com/course/240x135/713104_d4cb.jpg",
+        "price":"E£1,199.99",
+        "reviews":8508 ,
+        "rating": 4.6 ,
+        "instructor": "Lazy Programmer Inc."
+    },
+    {
+        "id": 20,
+        "category":"Data Science",
+        "title":"R Programming A-Z™: R For Data Science With Real Exercises!",
+        "image":"https://img-c.udemycdn.com/course/240x135/765242_2578_6.jpg",
+        "price":"E£1,399.99",
+        "reviews":47137 ,
+        "rating": 4.7 ,
+        "instructor": "Kirill Eremenko, Ligency I Team, Ligency Team",
+        "bestseller":true
+    },
+    {
+        "id": 21,
+        "category":"AWS Certification",
+        "title":"Amazon Web Services (AWS) Certified 2022 - 4 Certifications!",
+        "image":"https://img-c.udemycdn.com/course/240x135/765242_2578_6.jpg",
+        "price":"E£1,299.99",
+        "reviews":20993 ,
+        "rating": 4.5 ,
+        "instructor": "BackSpace Academy, Paul Coady"
+    },
+    {
+        "id": 22,
+        "category":"AWS Certification",
+        "title":"AWS Certified Security Specialty 2022",
+        "image":"https://img-c.udemycdn.com/course/240x135/1102458_d6e6_2.jpg",
+        "price":"E£369.99",
+        "reviews":5331 ,
+        "rating": 4.6 ,
+        "instructor": "Zeal Vora",
+        "bestseller":true
+    },
+    {
+        "id": 23,
+        "category":"AWS Certification",
+        "title":"Part 1: AWS Certified Solutions Architect SAA C03 [Updated]",
+        "image":"https://img-c.udemycdn.com/course/240x135/1135330_0e31_10.jpg",
+        "price":"E£669.99",
+        "reviews":1571 ,
+        "rating": 4.6 ,
+        "instructor": "Chandra Lingam"
+    },
+    {
+        "id": 24,
+        "category":"AWS Certification",
+        "title":"Practice Test AWS Solutions Architect Associate SAA C03",
+        "image":"https://img-c.udemycdn.com/course/240x135/1162310_5ee3_4.jpg",
+        "price":"E£519.99",
+        "reviews":2829 ,
+        "rating": 4.7 ,
+        "instructor": "Chandra Lingam"
+    },
+    {
+        "id": 25,
+        "category":"Drawing",
+        "title":"Drawing and Sketching for Beginners",
+        "image":"https://img-c.udemycdn.com/course/240x135/382394_63fa_7.jpg",
+        "price":"E£319.99",
+        "reviews":1438 ,
+        "rating": 4.3 ,
+        "instructor": "Robin Slee | Art | Illustration | iPad | Software Development"
+    },
+    {
+        "id": 26,
+        "category":"Drawing",
+        "title":"Building Confidence Through Drawing: Art for Beginners",
+        "image":"https://img-c.udemycdn.com/course/240x135/633084_1961_2.jpg",
+        "price":"E£269.99",
+        "reviews":1775 ,
+        "rating": 4.6 ,
+        "instructor": "Em Winn",
+        "bestseller":true
+    },
+    {
+        "id": 27,
+        "category":"Drawing",
+        "title":"Art for Kids & Beginners: 15 Easy Drawing & Painting Lessons",
+        "image":"https://img-c.udemycdn.com/course/240x135/670050_69ff_3.jpg",
+        "price":"E£269.99",
+        "reviews":766 ,
+        "rating": 4.6,
+        "instructor": "Em Winn"
+    },
+    {
+        "id": 28,
+        "category":"Drawing",
+        "title":"The Art & Science of Drawing / BASIC SKILLS",
+        "image":"https://img-c.udemycdn.com/course/240x135/1045092_8c2f_2.jpg",
+        "price":"E£369.99",
+        "reviews":11864 ,
+        "rating": 4.7 ,
+        "instructor": "Brent Eviston"
+    }
+  ],
+  "marketing":{
+    "Python":{
+        "brief":"Expand your career opportunities with Python",
+        "details":"Take one of Udemy's range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You'll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike."
+    },
+    "Excel":{
+        "brief":"Analyze and visualize data with Excel",
+        "details":"Take one of Udemy's range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You'll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike."
+    },
+    "Web Development":{
+        "brief":"Build websites and applications with Web Development",
+        "details":"The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on."
+    },
+    "Javascript":{
+        "brief":"Grow your software development skills with JavaScript",
+        "details":"JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build interactive web applications, choose the best framework, and work with other programming languages like HTML and CSS. "
+    },
+    "Data Science":{
+        "brief":"Lead data-driven decisions with Data Science",
+        "details":"Data science application is an in-demand skill in many industries worldwide — including finance, transportation, education, manufacturing, human resources, and banking. Explore data science courses with Python, statistics, machine learning, and more to grow your knowledge. Get data science training if you're into research, statistics, and analytics."
+    },
+    "AWS Certification":{
+        "brief":"Become an expert in cloud computing with AWS Certification",
+        "details":"Prep for your AWS certification with an AWS course on Udemy. Learn the fundamentals of AWS such as working with a serverless platform, the various frameworks, security and more. With these courses, you'll build the valuable skills you need to implement cloud initiatives — and open up new career opportunities. If you want to become an AWS developer, we've got the course for you."
+    },
+    "Drawing":{
+        "brief":"Expand your creative skillset with Drawing",
+        "details":"Want to start drawing for fun or take your craft to the next level? Explore our online drawing classes and learn pencil drawing, figure drawing, cartoon drawing, character drawing for cartoons and anime, illustration, sketching, shading and more. Take an overview course on the fundamentals of drawing or zero in on an area you'd like to improve with a specialized course. We've got tons of options to get — and keep — you going."
+    }
+  }
+}
