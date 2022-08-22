@@ -298,3 +298,7 @@ a{
     }
 
 } 
+#searchResults{
+    display:flex;
+    flex-wrap: wrap;
+}

@@ -1,21 +1,23 @@
-function getCourseCard(course){
+function getCourseCard(course, isSearchResult = false){
     let html = 
+    
+    // <a href="#" class=${isSearchResult?"course-card course":"course-card"}></a>
     `
-    <a href="#" class="course-card">
-                    <img src="${course?.image??"assets/PLMP"}" alt="courseImg" width="100%">
-                    <div class="course-text">
-                        <h3>${course?.title??"Course Name"}</h3><span class="instructorName">${course?.instructor??"Jeff Bezos"}</span>
-                        <div>
-                            <span class="rating">${course?.rating??4.5}</span>
-                            ${course.rating>=1?`<span class="fa fa-star checked"></span>`:`<span class="fa fa-star"></span>`}
-                            ${course.rating>=2?`<span class="fa fa-star checked"></span>`:`<span class="fa fa-star"></span>`}
-                            ${course.rating>=3?`<span class="fa fa-star checked"></span>`:`<span class="fa fa-star"></span>`}
-                            ${course.rating>=4?`<span class="fa fa-star checked"></span>`:`<span class="fa fa-star"></span>`}
-                            ${course.rating>=5?`<span class="fa fa-star checked"></span>`:`<span class="fa fa-star"></span>`}
+        <a href="#"  ${isSearchResult?"class='course course-card'":"class='course-card'"}>
+                        <img src="${course?.image??"assets/PLMP"}" alt="courseImg" width="100%">
+                        <div class="course-text">
+                            <h3>${course?.title??"Course Name"}</h3><span class="instructorName">${course?.instructor??"Jeff Bezos"}</span>
+                            <div>
+                                <span class="rating">${course?.rating??4.5}</span>
+                                ${course.rating>=1?`<span class="fa fa-star checked"></span>`:`<span class="fa fa-star"></span>`}
+                                ${course.rating>=2?`<span class="fa fa-star checked"></span>`:`<span class="fa fa-star"></span>`}
+                                ${course.rating>=3?`<span class="fa fa-star checked"></span>`:`<span class="fa fa-star"></span>`}
+                                ${course.rating>=4?`<span class="fa fa-star checked"></span>`:`<span class="fa fa-star"></span>`}
+                                ${course.rating>=5?`<span class="fa fa-star checked"></span>`:`<span class="fa fa-star"></span>`}
+                            </div>
+                            <h3>${course?.price??"Free"}</h3>
                         </div>
-                        <h3>${course?.price??"Free"}</h3>
-                    </div>
-                </a>
+                    </a>
     `
     return html;
 }
@@ -30,12 +32,12 @@ function createCourse(course) {
 }
 let currentTab = "Python";
 function updateCourses(courses){
-    console.log("hi how are you?");
-    let coursesContainer = document.querySelector("#myTabContent");
-    courses.forEach((course) => coursesContainer.innerHTML += getCourseCard(course));
-    coursesContainerList = coursesContainer.querySelectorAll('.course')
-    for(let i = 0; i < coursesContainerList.length; i++)
-       coursesContainerList[i  ]?.classList.add("active");
+    let coursesContainer = document.querySelector("#searchResults");
+    coursesContainer.innerHTML = "";
+    courses.forEach((course) => coursesContainer.innerHTML += getCourseCard(course, true));
+    // coursesContainerList = coursesContainer.querySelectorAll('.course')
+    // for(let i = 0; i < coursesContainerList.length; i++)
+    //    coursesContainerList[i  ]?.classList.add("active");
 }
 function populateTab(tabName){
     let html = 
@@ -126,6 +128,7 @@ let submitButton = document.querySelector(".submitbutton");
 submitButton.addEventListener("click", (e) => {
     e.preventDefault();
     tabs.forEach((tab)=>{
+        document.querySelector(`#${tab}-tab`).classList.remove('active');
         document.querySelector(`#${tab}`).classList.remove('show');
         document.querySelector(`#${tab}`).classList.remove('active');
     });
@@ -137,3 +140,9 @@ submitButton.addEventListener("click", (e) => {
     });
     updateCourses(filteredCourses);
 });
+
+document.querySelectorAll('.tablinks').forEach((tab)=>{
+    tab.addEventListener('click', (e)=>{
+        document.querySelector('#searchResults').innerHTML = ""
+    })
+})
